@@ -1,20 +1,18 @@
 def fizzbuzz(int)
 
-if ( int % 5 == 0 && int % 3 == 0){
-    "FizzBuzz"
-}
+if int % 5 == 0 && int % 3 == 0
+     "FizzBuzz"  
 
-
-if int % 3 == 0{
+   elsif int % 3 == 0
     "Fizz"
-  }
-if int % 5 == 0{
+  
+elsif int % 5 == 0
   "Buzz"
-}
 
 
 
-
+  
+    
   end
 
 
